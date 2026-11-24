@@ -1,0 +1,13 @@
+# Install PyTorch CPU build first if pip selects an unsuitable CUDA build.
+torch>=2.4.0
+transformers>=4.53.0
+colpali-engine>=0.3.0
+pymupdf>=1.24.0
+Pillow>=10.0.0
+streamlit>=1.38.0
+google-genai>=1.0.0,<2.0.0
+python-dotenv>=1.0.0
+psutil>=6.0.0
+safetensors>=0.4.5
+# Development / validation
+pytest>=8.0.0

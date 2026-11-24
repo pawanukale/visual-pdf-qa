@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/
+data/pdfs/*
+data/page_images/*
+data/embeddings/*
+logs/*.log
+!data/pdfs/.gitkeep
+!data/page_images/.gitkeep
+!data/embeddings/.gitkeep
+!logs/.gitkeep
+!sample_documents/*.pdf
